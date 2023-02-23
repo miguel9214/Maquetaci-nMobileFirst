@@ -17,6 +17,7 @@
   --off-white: #faf8f7;
   --just-white: #fff;
   --gray: #757575;
+  --gris: #808080;
 }
 
 /* Con esto reseteo los estilos de viene en el navegador */
@@ -268,14 +269,94 @@ main {
   border-radius: 8px;
 }
 
-.currency-table-date p{
+.currency-table-date p {
   font-size: 1.2rem;
   line-height: 1.5rem;
   color: var(--warm-black);
 }
 
-.comision-table-date p{
+.comision-table-date p {
   font-size: 1.2rem;
   line-height: 1.5rem;
   color: var(--warm-black);
+}
+
+.main-product-detail {
+  position: relative;
+  width: 100%;
+  min-width: 320px;
+  height: auto;
+  padding: 20px 10px;
+  background-color: var(--warm-black);
+}
+
+.main-product-detail .product-dateail-logo {
+  position: absolute;
+  width: 40px;
+  height: 25px;
+  top: -10px;
+  left: calc(50% - 20px);
+  background-image: url("../assets/icons/batatalogo.svg");
+}
+
+.product-detail-title {
+  width: 90%;
+  min-width: 288px;
+  height: auto;
+  margin: 0 auto;
+  margin-top: 50px;
+  text-align: center;
+}
+
+.product-detail-title h2 {
+  margin-bottom: 20px;
+  font-size: 2.4rem;
+  font-weight: bold;
+  line-height: 2.6rem;
+  color: var(--just-white);
+}
+
+.product-detail-title p {
+  margin-bottom: 20px;
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: var(--gris);
+}
+
+.product-detail-card {
+  width: 90%;
+  min-width: 288px;
+  max-width: 400px;
+  height: 150px;
+  margin: 15px auto;
+  padding: 15px;
+  background-color: var(--black);
+  border-radius: 5px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.16);
+}
+
+.product-detail-card .clock{
+ display: inline-block;
+ width: 20px;
+ height: 20px;
+ margin-bottom: 10px;
+ background-image: url("../assets/icons/clock.svg");
+ background-size: cover;
+ background-position: center;
+ background-repeat: no-repeat;
+}
+
+.product-detail-card .product-card-title{
+  margin-bottom: 15px;
+  font-size: 1.8rem;
+  font-weight: bold;
+  line-height: 1.8rem;
+  color: var(--just-white);
+}
+.product-detail-card .product-card-body{
+  font-size: 1.4rem;
+  font-weight: 500;
+  line-height: 1.8rem;
+  color: #808080;
 }
