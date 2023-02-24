@@ -347,6 +347,39 @@ main {
  background-repeat: no-repeat;
 }
 
+.product-detail-card .eyes{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 10px;
+  background-image: url("../assets/icons/eye.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ }
+
+ .product-detail-card .dollar{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 10px;
+  background-image: url("../assets/icons/dollar.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ }
+
+ .product-detail-card .check{
+  display: inline-block;
+  width: 20px;
+  height: 20px;
+  margin-bottom: 10px;
+  background-image: url("../assets/icons/checkCircle.svg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+ }
+
 .product-detail-card .product-card-title{
   margin-bottom: 15px;
   font-size: 1.8rem;
@@ -359,5 +392,4 @@ main {
   font-weight: 500;
   line-height: 1.8rem;
   color: #808080;
-  
 }
